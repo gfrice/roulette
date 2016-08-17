@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#results {
+  width: 250px;
+  height: 200px;
+  background: white;
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+#results.hidden {
+  display: none;
+}
+
+#results.show {
+  display: none;
+}
+
+#winDiv {
+  width: 100px;
+  height: 10px;
+  border: 1px solid #ccc;
+  padding: 5px;
+  margin: 20px;
+  color: 000;
+  font-weight: bold;
+}
+
+#spinbutt {
+  width: 50px;
+  height: 20px;
+  background: blue;
+  border: 1px solid #333;
+  color: white;
+  cursor: pointer;
+}
+
+#spinbutt:disabled {
+  background: #ccc;
+  color: #999;
+  cursor: default;
+}
+
+p #choice {
+  width: 100px;
+  height: 10px;
+  border: 1px solid #ccc;
+  padding: 5px;
+  margin: 20px;
+  color: 000;
+  font-weight: bold;
+}
+
+#bet {
+  width: 20px;
+  height: 20px;
+  border: 1px solid #ccc;
+  padding: 5px;
+  margin: 20px;
+  color: 000;
+}
+
+#winner {
+  border: 1px solid red;
+}
